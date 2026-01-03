@@ -9,7 +9,7 @@ export default function HeroSection() {
     );
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     return (
-        <section id="hero" className="relative min-h-screen bg-[url('/images/herobg.png')] bg-no-repeat bg-cover bg-center flex items-center justify-center bg-gradient-to-br from-green-50 via-white to-emerald-50 px-4 sm:px-6 lg:px-8 pt-10 xl:pt-20 pb-20 overflow-hidden">
+        <section id="hero" className="relative md:-mt-20 min-h-screen bg-[url('/images/herobg.png')] bg-no-repeat bg-cover bg-center flex items-center justify-center bg-gradient-to-br from-green-50 via-white to-emerald-50 px-4 sm:px-6 lg:px-8 pb-20 overflow-hidden">
             
             {/* Animated Background Elements */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-green-200/30 rounded-full blur-3xl animate-pulse"></div>
@@ -82,7 +82,7 @@ export default function HeroSection() {
                 </div>
 
                 {/* Trust Badges */}
-                <div className="grid grid-cols-3 gap-4 pt-5">
+                <div className="grid grid-cols-3 gap-2 md:gap-4 pt-5">
                     {[
                         { number: '20+', label: 'Happy Families' },
                         { number: '4.9★', label: 'Average Rating' },

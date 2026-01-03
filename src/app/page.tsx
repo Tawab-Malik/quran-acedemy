@@ -13,8 +13,9 @@ import PricingSection from '@/components/PricingSection';
 export default function Home() {
   return (
     <>
-      <Header />
-      <main className="bg-white">
+    
+      <main className="">
+        <Header />
         <StickyWhatsAppCTA />
         <HeroSection />
         <AboutSection />
