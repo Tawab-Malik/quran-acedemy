@@ -9,11 +9,12 @@ import Footer from '@/components/Footer';
 import StickyWhatsAppCTA from '@/components/StickyWhatsAppCTA';
 import FAQSection from '@/components/FAQSection';
 import PricingSection from '@/components/PricingSection';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
     <>
-    
+      <Analytics />
       <main className="">
         <Header />
         <StickyWhatsAppCTA />
